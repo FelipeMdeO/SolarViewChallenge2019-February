@@ -96,7 +96,6 @@ def fill_DB():
     lng_dir = -33.0
     lng_esq = -74.0
 
-
     for lat in numpy.arange(lat_min, lat_max, 0.2):
         for lng in numpy.arange(lng_esq, lng_dir, 0.2):
             try:
@@ -104,6 +103,7 @@ def fill_DB():
                 country = response.get('NAME')
                 if country == 'Brazil':
                     print("Working at latitude= " + str(lat) + " longitude= " + str(lng))
+                    # todo insert while here to restart download when connection return
                     request_data_from_api(lat=lat, lng=lng)
             except:
                 continue

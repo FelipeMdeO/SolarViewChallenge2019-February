@@ -16,12 +16,15 @@ mycursor = connection.cursor()
 file = open('output.txt', 'w')
 year = input("Digite o ano a ser avaliado: ")
 
-sql = "SELECT latitude, longitude, incidence  from irradiation WHERE year = %s"
+startTime = time.time()
+
+sql = "SELECT latitude, longitude, incidence  from irradiation2 WHERE year = %s"
 val = (2017, )
 mycursor.execute(sql, val)
 records = mycursor.fetchall()
 
 
+# todo give tratmet to case of invalid value returned of DB
 i = 0
 incidence_average = 0
 for row in records:
