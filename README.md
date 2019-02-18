@@ -18,7 +18,7 @@ A solução do problema consistiu em 4 etapas para sua conclusão completa, incl
 
 ![Point plot](https://github.com/FelipeMdeO/SolarViewChallenge2019-February/blob/master/Images/Point_Incidation.png)
 
-3 - Para solução da etapa bonus, utilizou-se um script do jupyter notebook por a biblioteca basemap, utilizada para plotar o mapa, ser mais facilmente instalada e configurada (utilizando o conda environment). O script Inicidence_Map_Data_Generator.py, a partir de uma entrada de um dado ano, calcula as medias para cada coordenada e escreve um arquivo, esse arquivo irá alimentar o arquivo jupyter de nome AT1Bonus.ipynb
+3 - Para solução da etapa bonus, utilizou-se um script no jupyter notebook por a biblioteca basemap, utilizada para plotar o mapa, ser mais facilmente instalada e configurada (utilizando o conda environment). O script Inicidence_Map_Data_Generator.py, a partir de uma entrada de um dado ano, calcula as medias para cada coordenada e escreve um arquivo, esse arquivo irá alimentar o arquivo jupyter de nome AT1Bonus.ipynb
 
 
 ![Brazil Irradiation Calc](https://github.com/FelipeMdeO/SolarViewChallenge2019-February/blob/master/Images/Brazil_Incidence.png)
