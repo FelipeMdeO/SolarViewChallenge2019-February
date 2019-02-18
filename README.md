@@ -16,13 +16,14 @@ A solução do problema consistiu em 4 etapas para sua conclusão completa, incl
 1 - Acesso a API da Nasa ponto a ponto com offset de 0.2 graus de todo o territorio brasileiro e alimentar um banco de dados. O Script API_Reader é responsável por esta tarefa.
 2 - A partir de uma entrada de latitude e longitude, o Script Result_Mean_Generator.py irá buscar os dados de todos os anos daquela latitude, irá desconsiderar os invalidos, calcular a média e gerar um gráfico
 
-![Brazil Irradiation Calc](https://github.com/FelipeMdeO/SolarViewChallenge2019-February/blob/master/Images/Brazil_Incidence.png)
-
-( O Banco de dados não havia sido completamente preenchido ao gerar esta imagem
+![Point plot](https://github.com/FelipeMdeO/SolarViewChallenge2019-February/blob/master/Images/Point_Incidation.png)
 
 3 - Para solução da etapa bonus, utilizou-se um script do jupyter notebook por a biblioteca basemap, utilizada para plotar o mapa, ser mais facilmente instalada e configurada (utilizando o conda environment). O script Inicidence_Map_Data_Generator.py, a partir de uma entrada de um dado ano, calcula as medias para cada coordenada e escreve um arquivo, esse arquivo irá alimentar o arquivo jupyter de nome AT1Bonus.ipynb
 
-![alt text](http://url/to/img.png)
+
+![Brazil Irradiation Calc](https://github.com/FelipeMdeO/SolarViewChallenge2019-February/blob/master/Images/Brazil_Incidence.png)
+
+( O Banco de dados não havia sido completamente preenchido ao gerar esta imagem
 
 Respostas as perguntas:
 
